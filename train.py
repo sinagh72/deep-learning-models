@@ -5,7 +5,7 @@ import lightning.pytorch as pl
 import torch
 import torchvision.models
 from PIL import Image
-from lightning.pytorch.callbacks import EarlyStopping, LearningRateMonitor, ModelCheckpoint
+from lightning.pytorch.callbacks import EarlyStopping, ModelCheckpoint
 from torch import optim
 from torch.utils.data import Dataset, random_split, DataLoader
 from torchmetrics import Accuracy, F1Score, AUROC, Precision
